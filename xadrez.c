@@ -23,12 +23,15 @@ int main() {
     int Torre = 1;
     int Rainha = 1;
    
+
+    // Implementação de Movimentação do Bispo para cima
     while (BispoCima <= 5) {
         printf("%d - Bispo em diagonal para cima \n", BispoCima);
         // O valor de 'i' nunca é incrementado
         BispoCima++;
     }
     printf("\n");
+    // Implementação de Movimentação do Bispo para direita
     while (BispoDireita <= 5) {
         printf("%d - Bispo em diagonal para direita \n", BispoDireita);
         // O valor de 'i' nunca é incrementado
@@ -36,6 +39,8 @@ int main() {
     }
 
     printf("\n");
+
+    //Implementação de Movimentação da Torre
    
     do {
         printf("%d - Torre para a direita \n", Torre);
@@ -44,6 +49,8 @@ int main() {
 
     printf("\n");
 
+    // Implementação de Movimentação da Rainha 
+    
     for (Rainha; Rainha <= 8; Rainha++) {
         printf("%d - Rainha para a esquerda \n", Rainha);
     }
